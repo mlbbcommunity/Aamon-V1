@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: aamon-v1
+    env: node
+    plan: starter
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
